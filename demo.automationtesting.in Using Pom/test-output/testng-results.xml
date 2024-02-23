@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="77513" started-at="2024-02-21T17:35:54Z" finished-at="2024-02-21T17:37:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="77513" started-at="2024-02-21T17:35:54Z" finished-at="2024-02-21T17:37:12Z">
+      <class name="demo.automationtesting.in.testclasses.RegisterTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:demo.automationtesting.in.testclasses.RegisterTest@ae45eb6]" name="setup" is-config="true" duration-ms="9361" started-at="2024-02-21T23:05:54Z" finished-at="2024-02-21T23:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="registerPageTitleTest()[pri:0, instance:demo.automationtesting.in.testclasses.RegisterTest@ae45eb6]" name="registerPageTitleTest" duration-ms="54" started-at="2024-02-21T23:06:03Z" finished-at="2024-02-21T23:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPageTitleTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:demo.automationtesting.in.testclasses.RegisterTest@ae45eb6]" name="setup" is-config="true" duration-ms="27709" started-at="2024-02-21T23:06:06Z" finished-at="2024-02-21T23:06:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testRegisterUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:demo.automationtesting.in.testclasses.RegisterTest@ae45eb6]" name="testRegisterUser" duration-ms="4869" started-at="2024-02-21T23:06:33Z" data-provider="registrationData" finished-at="2024-02-21T23:06:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nakhale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pune-414103]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nakhalepriya@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7083646367]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[FeMale]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[cricket,movies]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[greek,hindi]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterUser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:demo.automationtesting.in.testclasses.RegisterTest@ae45eb6]" name="setup" is-config="true" duration-ms="29091" started-at="2024-02-21T23:06:38Z" finished-at="2024-02-21T23:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testRegisterUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:demo.automationtesting.in.testclasses.RegisterTest@ae45eb6]" name="testRegisterUser" duration-ms="4104" started-at="2024-02-21T23:07:07Z" data-provider="registrationData" finished-at="2024-02-21T23:07:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sachin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nakhale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yavatmal-445001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nakhalesachin12@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9683646367]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Cricket,hockey]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[japanese]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterUser -->
+      </class> <!-- demo.automationtesting.in.testclasses.RegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
