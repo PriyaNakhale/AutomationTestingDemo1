@@ -36,11 +36,11 @@ public class BaseClass {
 			driver = new ChromeDriver();
 		}
 		if (browsername.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")  + "/Driver/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/Driver/geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		if (browsername.equals("edge")) {
-			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")  + "/Driver/msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") + "/Driver/msedgedriver.exe");
 			driver = new EdgeDriver();
 		}
 		driver.manage().window().maximize();
